@@ -10,6 +10,8 @@ Renseigner le nom de l'app, le mail de contact.
 Dans Paramètres > général cliquer sur ajouter une plateforme, choisir Web et vous aurez un champ texte : URL du site
 Renseigner avec : http://localhost:8080/auth/facebook/callback
 
+!!! A essayer si pour certain les étapes suivante ne marche pas pour "Domaines de l’app" ajouter : localhost
+
 Enregistrer les modifications.
 
 Dans l'onglet à gauche
@@ -26,12 +28,18 @@ Demandes de Marion à Ponnaka : tout est ok pour moi de ce qui est explicté jus
 
 Peut-on préciser les points suivants concernant les paramètres de mon produit :
 
-Connexion OAuth cliente : oui ou non ? (oui par défaut chez moi)
+Connexion OAuth cliente : OUI
 
-Connexion OAuth web : oui ou non ? (oui par défaut chez moi)
+Connexion OAuth web : OUI
 
-Connexion OAuth de navigateur intégrée : oui ou non ? (non par défaut chez moi)
+Connexion OAuth de navigateur intégrée : NON
 
-Forcer la ré-authentification OAuth web : oui ou non ? (non par défaut chez moi)
+Forcer la ré-authentification OAuth web : NON
 
-Utiliser le mode strict pour les URL de redirection : oui ou non ? (oui par défaut chez moi)
+Utiliser le mode strict pour les URL de redirection : OUI
+
+URI de redirection OAuth valides : http://localhost:8080/auth/facebook/callback
+
+Connexion à partir des appareils : NON
+
+URL d’alerte pour les annulations d’autorisation : <vide>
