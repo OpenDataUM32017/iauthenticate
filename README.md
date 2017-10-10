@@ -42,4 +42,4 @@ URI de redirection OAuth valides : http://localhost:8080/auth/facebook/callback
 
 Connexion à partir des appareils : NON
 
-URL d’alerte pour les annulations d’autorisation : <rien>
+URL d’alerte pour les annulations d’autorisation : champ vide
